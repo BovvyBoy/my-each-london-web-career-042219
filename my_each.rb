@@ -1,5 +1,7 @@
 def my_each(collection)
-   collection.map do |i|
-    puts i
+  while i < collection.length
+  yield(collection[i])
+  i = i + 1
   end
+
 end
