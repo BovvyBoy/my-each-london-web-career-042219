@@ -3,7 +3,7 @@ def my_each(collection)
     "#{word}"
   end
   
-	while i < array.length
+	while word < word.length
 	yield(array[word])
     word = i + 1
     end
