@@ -10,3 +10,4 @@ yield(collection[word])
   end
   "#{word}"
   end
+end
