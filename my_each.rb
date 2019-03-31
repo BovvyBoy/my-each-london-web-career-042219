@@ -1,5 +1,5 @@
 def my_each(collection)
-   collection. do |i|
+   collection.map do |i|
     puts i
   end
 end
