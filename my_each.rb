@@ -7,7 +7,7 @@ def my_each(collection)
 
   while word < collection.length
   yield(collection[word])
-  word = i + 1
-end
-"#{word}"
-end
+    word = i + 1
+  end
+  "#{word}"
+  end
