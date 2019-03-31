@@ -1,9 +1,8 @@
-def my_each(collection)
-   collection.map do |word|
-    "#{word}"
+def my_each(words) do |word|
+    put "#{word}"
   
-  while word < collection.length
-  yield(collection[word])
+  while word < words.length
+  yield(words[word])
     word = i + 1
   end
   "#{word}"
