@@ -4,11 +4,10 @@ def my_each(collection)
   end
   
 
+
+  while word < collection.length
+  yield(collection[word])
+  word = i + 1
 end
-
-
-#	while word < collection.length
-#	yield(collection[word])
-#    word = i + 1
-#    end
-#    "#{word}"
+"#{word}"
+end
