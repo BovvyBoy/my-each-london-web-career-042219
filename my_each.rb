@@ -6,7 +6,6 @@ def my_each(collection)
 yield(collection[word])
 
   while word < collection.length
-  
     word += 1
   end
   "#{word}"
