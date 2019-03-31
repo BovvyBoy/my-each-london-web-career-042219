@@ -1,6 +1,6 @@
 def my_each(collection)
    collection.map do |word|
-    "#{word}"
+    puts "#{word}"
   end
   
   while word < collection.length
