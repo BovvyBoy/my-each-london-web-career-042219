@@ -1,10 +1,11 @@
-def my_each(words) do |word|
-    put "#{word}"
+def my_each(collection)
+   collection.map do |word|
+    "#{word}"
   end
-  while word < words.length
-  yield(words[word])
+  
+  while word < collection.length
+  yield(collection[word])
     word = i + 1
   end
   "#{word}"
   end
-end
