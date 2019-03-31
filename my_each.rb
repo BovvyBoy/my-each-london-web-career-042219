@@ -1,5 +1,5 @@
-def my_each(collection)
-   collection.map do |word|
+def my_each(collection) do |word|
+   collection.map 
     "#{word}"
   end
   
