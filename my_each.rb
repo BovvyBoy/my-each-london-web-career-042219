@@ -8,4 +8,5 @@ def my_each(collection)
     word = i + 1
     end
     "#{i}"
+  end
 end
