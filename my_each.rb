@@ -1,6 +1,6 @@
 def my_each(collection)
    collection.map do |i|
-    puts i
+    puts "#{i}"
   end
   
 	while i < array.length
