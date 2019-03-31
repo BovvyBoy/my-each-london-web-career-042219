@@ -11,4 +11,3 @@ def my_each(collection)
   end
   "#{word}"
   end
-end
